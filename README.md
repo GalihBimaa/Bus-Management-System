@@ -1,4 +1,4 @@
-# Nusantara Hijau Trans — Sistem Manajemen Keberangkatan & Reservasi Bus
+# Sistem Manajemen Keberangkatan & Reservasi Bus
 
 Platform manajemen operasional dan pemesanan tiket bus antarkota (**Koridor Utama: Yogyakarta — Bali**) yang mengintegrasikan denah tempat duduk interaktif, proteksi *Solo Traveler Wanita*, harga tiket dinamis (*Dynamic Pricing*), pelacakan *Live GPS*, absensi *Digital Manifest QR*, pelacakan bagasi kompartemen (*Smart Baggage Tracker*), serta analitik *Heatmap* titik keberangkatan penumpang.
 
@@ -78,31 +78,6 @@ Sistem membagi akses ke dalam **3 peran (Role)** dengan batasan wewenang yang je
 | **Laporan Pendapatan Finansial & Heatmap Analitik Agen** | **Dibatasi** | **Dibatasi** | **Khusus Owner** |
 
 ---
-
-## Struktur Direktori Proyek
-
-```text
-bus-management-system/
-├── web-admin/                        # Aplikasi Frontend Utama (Next.js, React, Tailwind CSS, TypeScript)
-│   ├── app/
-│   │   ├── login/page.tsx            # Gerbang Login Multi-Peran (Pengguna, Admin, Owner)
-│   │   ├── dashboard/
-│   │   │   ├── page.tsx              # Beranda kartu menu sesuai hak akses peran
-│   │   │   ├── denah-kursi/page.tsx  # Denah kursi interaktif, Solo Traveler, Dynamic Pricing & Order
-│   │   │   ├── armada/page.tsx       # Katalog & manajemen unit bus (Sleeper, Suite, Eksekutif)
-│   │   │   ├── jadwal/page.tsx       # Jadwal & Roadmap pemberhentian Yogyakarta - Bali
-│   │   │   ├── tracking/page.tsx     # Live GPS armada & panel transmisi lokasi sopir
-│   │   │   ├── manifest-bagasi/      # Digital Manifest QR & Smart Baggage Tracker Kompartemen A/B/C
-│   │   │   └── heatmap/page.tsx      # Analitik pendapatan & Heatmap titik agen (Khusus Owner)
-│   ├── components/
-│   │   ├── classic-shell.tsx         # Header navigasi berbasis Role & Footer
-│   │   └── bus-loading.tsx           # Animasi bus berjalan di jalanan saat loading
-│   ├── lib/
-│   │   └── bus-system-context.tsx    # State terpadu seluruh modul & logika bisnis
-│   └── public/buses/                 # Aset ilustrasi vektor bus ikonik Nusantara Hijau
-└── backend-api/                      # Layanan REST API Pendukung (Express.js & TypeScript)
-    └── src/index.ts
-```
 
 ---
 
