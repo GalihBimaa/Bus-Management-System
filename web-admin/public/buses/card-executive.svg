@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none">
+  <!-- Sky & Terminal Building Backdrop (Like 3rd photo in Buses and More) -->
+  <rect width="400" height="175" fill="#d1fae5"/>
+  <!-- Modern Terminal Building -->
+  <rect x="15" y="65" width="240" height="110" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="15" y="65" width="240" height="16" fill="#047857"/>
+  <rect x="35" y="95" width="45" height="75" fill="#94a3b8"/>
+  <rect x="95" y="95" width="45" height="75" fill="#94a3b8"/>
+  <!-- Paved Terminal Apron -->
+  <rect y="175" width="400" height="75" fill="#334155"/>
+  <!-- Crisp White Executive Coach Parked at Terminal -->
+  <ellipse cx="215" cy="212" rx="155" ry="12" fill="#0f172a" fill-opacity="0.45"/>
+  <path d="M56 108 C60 90 74 82 98 80 L358 112 C366 114 370 120 370 130 L370 186 L150 206 L60 194 Z" fill="#ffffff" stroke="#cbd5e1"/>
+  <!-- Windows -->
+  <path d="M62 106 L142 84 L142 150 L60 148 Z" fill="#0f172a"/>
+  <path d="M150 86 L362 115 L362 148 L150 142 Z" fill="#0f172a"/>
+  <!-- Clean Emerald Stripe -->
+  <path d="M150 154 L364 156 L364 168 L150 172 Z" fill="#059669"/>
+  <!-- Wheels -->
+  <circle cx="182" cy="196" r="18" fill="#0f172a"/>
+  <circle cx="182" cy="196" r="9" fill="#e2e8f0"/>
+  <circle cx="322" cy="186" r="15" fill="#0f172a"/>
+  <circle cx="322" cy="186" r="7" fill="#e2e8f0"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none">
+  <!-- Bus Under-Floor Baggage Compartment Closeup (Like 4th photo in Buses and More) -->
+  <rect width="400" height="250" fill="#1e293b"/>
+  <!-- Upper Coach Side Body Emerald -->
+  <rect x="0" y="0" width="400" height="65" fill="#065f46"/>
+  <rect x="0" y="58" width="400" height="7" fill="#34d399"/>
+  <!-- 3 Open Baggage Compartments (Kompartemen A, B, C) -->
+  <rect x="20" y="82" width="110" height="125" rx="6" fill="#0f172a" stroke="#475569" stroke-width="3"/>
+  <rect x="145" y="82" width="110" height="125" rx="6" fill="#0f172a" stroke="#475569" stroke-width="3"/>
+  <rect x="270" y="82" width="110" height="125" rx="6" fill="#0f172a" stroke="#475569" stroke-width="3"/>
+  <!-- Suitcases with Emerald QR Tags inside Compartment A -->
+  <rect x="34" y="122" width="42" height="72" rx="5" fill="#059669" stroke="#a7f3d0" stroke-width="1.5"/>
+  <rect x="44" y="132" width="22" height="16" rx="2" fill="#ffffff"/>
+  <rect x="82" y="136" width="36" height="58" rx="4" fill="#334155" stroke="#94a3b8" stroke-width="1.5"/>
+  <!-- Suitcases inside Compartment B -->
+  <rect x="160" y="128" width="48" height="66" rx="5" fill="#047857" stroke="#6ee7b7" stroke-width="1.5"/>
+  <rect x="172" y="138" width="24" height="16" rx="2" fill="#ffffff"/>
+  <rect x="214" y="142" width="30" height="52" rx="4" fill="#475569"/>
+  <!-- Cargo Box inside Compartment C -->
+  <rect x="286" y="118" width="78" height="76" rx="6" fill="#064e3b" stroke="#34d399" stroke-width="1.5"/>
+  <rect x="312" y="136" width="26" height="26" rx="3" fill="#ffffff"/>
+  <!-- Compartment Labels -->
+  <rect x="32" y="92" width="86" height="18" rx="3" fill="#064e3b"/>
+  <rect x="157" y="92" width="86" height="18" rx="3" fill="#064e3b"/>
+  <rect x="282" y="92" width="86" height="18" rx="3" fill="#064e3b"/>
+</svg>

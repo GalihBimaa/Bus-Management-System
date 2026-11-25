@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" fill="none">
+  <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="175" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#022c22"/>
+    <stop offset="55%" stop-color="#065f46"/>
+    <stop offset="100%" stop-color="#d1fae5"/>
+  </linearGradient>
+  <rect width="400" height="175" fill="url(#sky2)"/>
+  <!-- Mountain Backdrop -->
+  <path d="M0 175 L85 110 L175 155 L285 95 L400 155 L400 175 Z" fill="#064e3b" fill-opacity="0.65"/>
+  <!-- Road -->
+  <rect y="175" width="400" height="75" fill="#1e293b"/>
+  <!-- Custom Metallic Emerald & Gold Suite Coach -->
+  <ellipse cx="205" cy="212" rx="158" ry="11" fill="#020617" fill-opacity="0.5"/>
+  <path d="M44 120 C48 98 62 90 88 88 L350 105 C360 107 364 114 364 125 L364 190 L132 206 L48 196 Z" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+  <!-- Windows -->
+  <path d="M50 116 L126 92 L126 154 L48 152 Z" fill="#020617"/>
+  <path d="M134 93 L356 110 L356 148 L134 146 Z" fill="#020617"/>
+  <!-- Decorative Ribbon Graphics (Like 2nd photo in Buses and More) -->
+  <path d="M134 176 Q200 135 275 168 T360 150 L360 172 Q285 190 215 162 T134 196 Z" fill="#34d399"/>
+  <path d="M134 186 Q210 150 290 178 L360 165 L360 184 L134 202 Z" fill="#ecfdf5" fill-opacity="0.85"/>
+  <!-- Wheels -->
+  <circle cx="170" cy="198" r="18" fill="#020617"/>
+  <circle cx="170" cy="198" r="9" fill="#cbd5e1"/>
+  <circle cx="318" cy="188" r="15" fill="#020617"/>
+  <circle cx="318" cy="188" r="7" fill="#cbd5e1"/>
+</svg>

@@ -1,0 +1,119 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+}
+
+:root {
+  --background: oklch(0.985 0.002 240);
+  --foreground: oklch(0.20 0.02 240);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.20 0.02 240);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.20 0.02 240);
+  --primary: oklch(0.50 0.14 155);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.96 0.01 240);
+  --secondary-foreground: oklch(0.25 0.02 240);
+  --muted: oklch(0.96 0.005 240);
+  --muted-foreground: oklch(0.50 0.02 240);
+  --accent: oklch(0.95 0.02 155);
+  --accent-foreground: oklch(0.25 0.06 155);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.91 0.005 240);
+  --input: oklch(0.91 0.005 240);
+  --ring: oklch(0.50 0.14 155);
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-slate-50 text-slate-800 text-sm sm:text-base leading-normal;
+  }
+}
+
+/* Animasi Sederhana Bus Berjalan di Jalanan */
+@keyframes busSuspension {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-2.5px);
+  }
+}
+
+@keyframes roadMove {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -48;
+  }
+}
+
+@keyframes wheelRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes busCruiseAcross {
+  0% {
+    transform: translateX(-18px);
+  }
+  50% {
+    transform: translateX(18px);
+  }
+  100% {
+    transform: translateX(-18px);
+  }
+}
+
+.animate-bus-suspension {
+  animation: busSuspension 0.55s ease-in-out infinite;
+}
+
+.animate-road-stripes {
+  animation: roadMove 0.45s linear infinite;
+}
+
+.animate-wheel-spin {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: wheelRotate 0.5s linear infinite;
+}
+
+.animate-bus-cruise {
+  animation: busCruiseAcross 2.4s ease-in-out infinite;
+}

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 440" fill="none">
+  <defs>
+    <linearGradient id="coachBody" x1="120" y1="80" x2="780" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="48%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="emeraldSwoop" x1="160" y1="180" x2="800" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="55%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+    <linearGradient id="goldTrim" x1="160" y1="200" x2="780" y2="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="windshield" x1="200" y1="60" x2="310" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="45%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+    <linearGradient id="sideGlass" x1="340" y1="80" x2="810" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="60%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+    <radialGradient id="groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.48"/>
+      <stop offset="70%" stop-color="#0f172a" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Realistic Showroom Ground Shadow -->
+  <ellipse cx="470" cy="378" rx="370" ry="34" fill="url(#groundShadow)"/>
+  <ellipse cx="390" cy="384" rx="260" ry="22" fill="#0f172a" fill-opacity="0.25"/>
+
+  <!-- Left Side Mirror Arm (Extending out on left like reference photo) -->
+  <path d="M142 136 Q116 132 112 152 L112 184 Q114 194 124 194 L132 194 Q138 194 138 184 L138 152 Q140 144 156 144 Z" fill="#1e293b"/>
+  <rect x="111" y="150" width="18" height="40" rx="5" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+
+  <!-- Main 3/4 Perspective Motor Coach Chassis -->
+  <!-- Front Face + Side Body -->
+  <path d="M150 112 C154 76 174 54 212 48 L328 40 C350 39 376 42 406 47 L796 112 C812 115 822 126 824 142 L826 286 C826 296 818 304 808 306 L342 368 C318 371 290 371 266 367 L166 350 C148 347 138 336 138 318 L142 168 C143 146 146 128 150 112 Z" fill="url(#coachBody)" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Roof Cap & Brow Highlight -->
+  <path d="M168 72 C180 54 202 46 234 43 L334 38 C356 37 380 40 408 45 L796 112 C788 106 770 102 746 98 L368 48 C346 45 322 45 298 48 L194 60 C180 62 172 66 168 72 Z" fill="#064e3b"/>
+
+  <!-- Side Panoramic Tinted Glass Ribbon -->
+  <path d="M352 54 L806 122 C812 123 816 129 816 136 L816 206 L546 196 C512 194 484 184 456 168 L412 142 L348 142 L348 58 C348 55 350 54 352 54 Z" fill="url(#sideGlass)"/>
+
+  <!-- Window Reflections & Pillar Lines -->
+  <path d="M435 67 L435 156" stroke="#334155" stroke-width="3"/>
+  <path d="M525 81 L525 194" stroke="#334155" stroke-width="3"/>
+  <path d="M610 94 L610 198" stroke="#334155" stroke-width="3"/>
+  <path d="M690 106 L690 201" stroke="#334155" stroke-width="3"/>
+  <path d="M758 115 L758 204" stroke="#334155" stroke-width="2.5"/>
+  <!-- Tree/Sky Reflection on Side Glass -->
+  <path d="M450 85 L590 105 L560 185 L430 150 Z" fill="#ffffff" fill-opacity="0.07"/>
+  <path d="M630 110 L740 125 L720 195 L615 190 Z" fill="#10b981" fill-opacity="0.08"/>
+
+  <!-- Emerald Lower Body Swoop & Signature Livery (Matching the swoop on the reference coach) -->
+  <path d="M348 222 L428 220 C464 219 496 200 534 198 L818 206 L818 298 L346 364 Z" fill="url(#emeraldSwoop)"/>
+  <path d="M348 218 L428 216 C464 215 496 196 534 194 L818 203 L818 210 L534 201 C496 203 464 222 428 223 L348 225 Z" fill="url(#goldTrim)"/>
+
+  <!-- Under-floor Baggage Compartment Doors (Kompartemen A, B, C) -->
+  <line x1="485" y1="214" x2="485" y2="342" stroke="#022c22" stroke-width="2" stroke-opacity="0.6"/>
+  <line x1="575" y1="202" x2="575" y2="328" stroke="#022c22" stroke-width="2" stroke-opacity="0.6"/>
+  <line x1="660" y1="204" x2="660" y2="316" stroke="#022c22" stroke-width="2" stroke-opacity="0.6"/>
+  <!-- Baggage Door Handles -->
+  <rect x="522" y="298" width="18" height="5" rx="2" fill="#a7f3d0" fill-opacity="0.7"/>
+  <rect x="610" y="288" width="18" height="5" rx="2" fill="#a7f3d0" fill-opacity="0.7"/>
+
+  <!-- Front Cabin Door Frame -->
+  <path d="M352 146 L406 146 L406 352 L352 360 Z" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/>
+  <path d="M358 152 L400 152 L400 238 L358 238 Z" fill="#0f172a"/>
+
+  <!-- Front Panoramic Windshield (Left Side of Bus) -->
+  <path d="M156 106 C160 76 178 60 210 56 L316 48 C328 47 336 54 336 66 L336 226 C336 234 328 240 318 240 L158 236 C150 236 146 230 146 220 L150 146 C151 130 153 116 156 106 Z" fill="url(#windshield)" stroke="#334155" stroke-width="3"/>
+  <!-- Windshield Center Divider & Wipers -->
+  <line x1="226" y1="54" x2="220" y2="238" stroke="#020617" stroke-width="3.5"/>
+  <path d="M164 232 L212 186" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <path d="M236 234 L298 184" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <!-- Windshield Glass Glare -->
+  <path d="M170 76 L214 70 L196 218 L158 216 Z" fill="#ffffff" fill-opacity="0.09"/>
+  <path d="M244 66 L312 60 L292 222 L234 220 Z" fill="#34d399" fill-opacity="0.07"/>
+
+  <!-- Right Side High-Mounted Chrome Mirror (Center-Front of Coach) -->
+  <path d="M336 116 Q364 114 366 134 L366 174 Q366 184 356 184 L346 184 Q338 184 338 172 L338 136" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+  <rect x="342" y="132" width="22" height="46" rx="6" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+
+  <!-- Front Bumper, Grille & LED Projector Headlights -->
+  <path d="M142 246 L338 250 L338 358 L266 366 C242 368 214 366 188 361 L154 352 C144 349 140 340 140 326 Z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.5"/>
+  <!-- Emerald Front Mask Accent -->
+  <path d="M146 252 L334 256 L334 292 L144 286 Z" fill="#065f46"/>
+  <!-- Front Brand Emblem -->
+  <rect x="208" y="266" width="46" height="12" rx="4" fill="#022c22" stroke="#34d399" stroke-width="1.5"/>
+  <!-- Lower Front Air Intake Grille -->
+  <rect x="176" y="308" width="104" height="28" rx="6" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+  <line x1="184" y1="317" x2="272" y2="317" stroke="#334155" stroke-width="2"/>
+  <line x1="184" y1="326" x2="272" y2="326" stroke="#334155" stroke-width="2"/>
+
+  <!-- Left Headlight Cluster -->
+  <path d="M144 294 L172 300 L172 322 L144 316 Z" fill="#0f172a" stroke="#64748b" stroke-width="1.5"/>
+  <circle cx="154" cy="306" r="5" fill="#ffffff"/>
+  <circle cx="165" cy="309" r="4" fill="#34d399"/>
+
+  <!-- Right Headlight Cluster -->
+  <path d="M286 304 L330 296 L330 320 L286 326 Z" fill="#0f172a" stroke="#64748b" stroke-width="1.5"/>
+  <circle cx="298" cy="312" r="5.5" fill="#ffffff"/>
+  <circle cx="314" cy="310" r="5.5" fill="#fef08a"/>
+  <!-- Fog Lights -->
+  <circle cx="156" cy="338" r="5" fill="#fef08a" stroke="#475569" stroke-width="1.5"/>
+  <circle cx="308" cy="344" r="5.5" fill="#fef08a" stroke="#475569" stroke-width="1.5"/>
+
+  <!-- Front Wheel (Alcoa Chrome Rim) -->
+  <ellipse cx="446" cy="336" rx="36" ry="44" fill="#0f172a"/>
+  <ellipse cx="446" cy="336" rx="30" ry="38" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <ellipse cx="448" cy="336" rx="19" ry="25" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/>
+  <ellipse cx="448" cy="336" rx="8" ry="11" fill="#064e3b"/>
+  <!-- Lug nut holes -->
+  <circle cx="448" cy="318" r="2.5" fill="#334155"/>
+  <circle cx="448" cy="354" r="2.5" fill="#334155"/>
+  <circle cx="435" cy="327" r="2.5" fill="#334155"/>
+  <circle cx="460" cy="327" r="2.5" fill="#334155"/>
+  <circle cx="435" cy="345" r="2.5" fill="#334155"/>
+  <circle cx="460" cy="345" r="2.5" fill="#334155"/>
+
+  <!-- Rear Dual Tandem Axle Wheels (6x2 Scania / Volvo Chassis) -->
+  <!-- Rear Axle 1 -->
+  <ellipse cx="718" cy="300" rx="24" ry="32" fill="#0f172a"/>
+  <ellipse cx="718" cy="300" rx="14" ry="20" fill="#cbd5e1" stroke="#475569" stroke-width="1.5"/>
+  <ellipse cx="718" cy="300" rx="6" ry="8" fill="#064e3b"/>
+
+  <!-- Rear Tag Axle 2 -->
+  <ellipse cx="764" cy="294" rx="22" ry="29" fill="#0f172a"/>
+  <ellipse cx="764" cy="294" rx="12" ry="18" fill="#cbd5e1" stroke="#475569" stroke-width="1.5"/>
+  <ellipse cx="764" cy="294" rx="5" ry="7" fill="#064e3b"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 88" fill="none">
+  <!-- Ground shadow line -->
+  <ellipse cx="120" cy="80" rx="105" ry="4" fill="#064e3b" fill-opacity="0.18"/>
+  <!-- Main Bus Silhouette Body (3/4 perspective like BusesAndMore logo) -->
+  <path d="M18 68 L18 42 C18 34 24 28 34 25 L146 8 C160 6 176 6 188 10 L214 18 C222 21 226 28 226 37 L226 68 C226 71 223 73 219 73 L198 73 C198 63 190 56 180 56 C170 56 162 63 162 73 L88 73 C88 63 80 56 70 56 C60 56 52 63 52 73 L23 73 C19 73 18 71 18 68 Z" fill="#064e3b"/>
+  <!-- White side window belt & lower body panel -->
+  <path d="M24 44 L152 24 L152 66 L89 66 C87 57 79 52 70 52 C61 52 53 57 51 66 L24 66 Z" fill="#ffffff"/>
+  <!-- Emerald accent swoop along side -->
+  <path d="M24 56 Q90 48 152 38 L152 46 Q90 56 24 62 Z" fill="#059669"/>
+  <!-- Panoramic Front Windshield (Right side of logo) -->
+  <path d="M162 13 L216 22 C220 23 222 27 222 33 L222 46 L160 40 L160 15 C160 13 161 13 162 13 Z" fill="#ffffff"/>
+  <!-- Front Grille & Headlights -->
+  <rect x="164" y="54" width="12" height="5" rx="2" fill="#a7f3d0"/>
+  <rect x="208" y="54" width="11" height="5" rx="2" fill="#a7f3d0"/>
+  <rect x="180" y="56" width="24" height="4" rx="1.5" fill="#10b981"/>
+  <!-- Wheels -->
+  <circle cx="70" cy="72" r="12" fill="#064e3b"/>
+  <circle cx="70" cy="72" r="6" fill="#ffffff"/>
+  <circle cx="180" cy="72" r="12" fill="#064e3b"/>
+  <circle cx="180" cy="72" r="6" fill="#ffffff"/>
+</svg>
